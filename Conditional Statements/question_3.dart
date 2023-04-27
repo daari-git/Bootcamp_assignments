@@ -12,3 +12,8 @@ void main() {
     print("The number is odd");
   }
 }
+
+/* [Output]
+Enter the number
+4
+The number is even */
