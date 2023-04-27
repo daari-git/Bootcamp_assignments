@@ -7,6 +7,7 @@ void main() {
   print("Enter the age ");
   int age = int.parse(stdin.readLineSync()!); // Taking user age as input.
   if (age >= 18) {
+    // if condition
     print("You are a adult");
   } else {
     print("You are a minor");
@@ -14,5 +15,5 @@ void main() {
 }
 /* [output]
 Enter the age 
-98
+25
 You are a adult */
