@@ -4,10 +4,15 @@
 import 'dart:io';
 
 void main() {
-  int age = int.parse(stdin.readLineSync()!);
+  print("Enter the age ");
+  int age = int.parse(stdin.readLineSync()!); // Taking user age as input.
   if (age >= 18) {
     print("You are a adult");
   } else {
     print("You are a minor");
   }
 }
+/* [output]
+Enter the age 
+98
+You are a adult */
