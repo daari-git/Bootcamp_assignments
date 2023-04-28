@@ -33,3 +33,8 @@ void main() {
       break;
   }
 }
+
+/* [output]
+Enter the variable for day
+9
+Invalid day */
